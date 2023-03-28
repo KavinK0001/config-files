@@ -1,0 +1,4 @@
+[Desktop Entry]
+Type=Application
+Name=Pipewire
+Exec=/usr/bin/pipewire & /usr/bin/pipewire-pulse & /usr/bin/wireplumber
