@@ -1,0 +1,38 @@
+Things i've done to this arch linux system (may not be in order)
+
+General stuff:
+
+install down_on_spot: https://github.com/oSumAtrIX/DownOnSpot
+install the xanmod and linux-ck kernels
+install pipewire, pipewire-pulse, pipewire-alsa, pipewire-jack, pipewire-v4l2
+install realtime-privileges and run "usermod -aG realtime dank"
+install qemu and virt manager and setup the virtual network to autostart on boot
+install easyeffects and the preset:
+install alacritty
+	- install the ttf-meslo font for my alacritty config
+install simplescreenrecorder
+install obs 
+install supertuxkart
+install chrome
+	- enable the dark mode feature: https://wiki.archlinux.org/title/chromium#Dark_mode
+	- install ublock origin
+	- install dark reader
+	- install return youtube dislikes
+setup vaapi
+	- to do this, install libva-vdpau-driver-vp9-git (AUR), and intel-media-driver
+	- install chromium and add this in the .desktop file:
+		- env vars:
+			LIBVA_DRI3_DISABLE=1 
+			LIBVA_DRIVER_NAME=iHD
+		- Arguements: 
+			--enable-features=VaapiVideoDecoder 
+			--enable-features=VaapiIgnoreDriverChecks 
+			--disable-features=UseChromeOSDirectVideoDecoder	
+		
+install spotify and spotify-adblock
+remove the orange mic overlay in firefox (if i installed it)
+install ppsspp
+install the pacman package cache clean hook
+install tlp
+install and setup flameshot
+install gwenview
